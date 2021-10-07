@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+const Profile = (props) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="wrapper">
+      <p>Nama : {props.nama}</p>
+      <p>Umur : {props.umur} </p>
     </div>
   );
-}
+};
+const App = () => {
+  return (
+    <div>
+      <Profile nama="Cintara Surya Elidanto" umur="18" />
+      <Profile nama="Ehehehe" umur="18" />
+    </div>
+  );
+};
 
 export default App;

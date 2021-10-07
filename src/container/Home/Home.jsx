@@ -1,14 +1,12 @@
 import React, { Component } from "react";
-import YoutubeComponent from "../../component/YoutubeComponent/YoutubeComponent";
+import Counter from "../../component/Counter/Counter";
+// import YoutubeComponent from "../../component/YoutubeComponent/YoutubeComponent";
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <YoutubeComponent name="AKU NARUTOOO" />
-        <YoutubeComponent name="AKU SASUKEEE"/>
-        <YoutubeComponent name="AKU GARA"/>
-        <YoutubeComponent/>
+        <Counter/>
       </div>
     );
   }

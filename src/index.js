@@ -3,22 +3,12 @@ import ReactDOM from "react-dom";
 import "./index.css";
 // import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import HelloWorld from "./component/HelloWorld";
-
-
-class HelloWorldClass extends React.Component {
-  render() {
-    return(
-      <div>
-        <p> Hello World Class! </p>
-      </div>
-    )
-  }
-}
+// import HelloWorld from "./component/HelloWorld";
+import YoutubeComponent from "./component/YoutubeComponent/YoutubeComponent";
 
 ReactDOM.render(
   <React.StrictMode>
-    <HelloWorld />
+    <YoutubeComponent />
   </React.StrictMode>,
   document.getElementById("root")
 );
